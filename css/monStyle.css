@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Questa";
+    src: url("../fonts/QuestaSansRegular.ttf");
+}
+
+body {
+    font-family:  "Questa";
+    background-color: #C0D0EF;
+}
+
+h1 {
+    font-size: 40px;
+    color:#B80F0A;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    color: #304A6E; 
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+/***********************************************************************************************EspaceJeu******************************************************************************************/ 
+
+#section_regles {
+    background-color: #C0D0EF;
+    color: #304A6E;
+    border: 1px solid black;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    height: 400px;
+    width: 50%;
+    padding: 0;
+    text-align: center;
+}
+
+#section_regles h2 {
+    color: #B80F0A;
+}
+
+#section_regles a {
+    border: 1px solid #B80F0A;
+    border-radius: 50px;
+    color: #B80F0A;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+#section_jeu {
+    border: 1px solid black;
+    height: 400px;
+    width: 50%;
+    position: relative;
+}
+
+#conteneur_jeu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Winning {
+    position: absolute;
+    background-color: #668DC0;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: #B80F0A;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+}
+
+.Winning a {
+    color: #0F1C30;
+}
+
+.Losing {
+    position: absolute;
+    background-color: #B80F0A;
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: #C0D0EF;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+}
+
+.Losing a {
+    color: #0F1C30;
+}
+
+/* Personnage */
+
+.chien{
+    background-color: #B80F0A;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+/* Route et trottoir */
+
+
+.trottoir {
+    background-color: #668DC0;
+    height: 50px;
+    width: 100%;
+   
+}
+
+.route {
+    box-sizing: border-box;
+    background-color: #C2C6CE;
+    height: 75%;
+    width: 100%;
+}
+
+.voie {
+    box-sizing: border-box;
+    border-bottom: 1px dashed white;
+    height: 50px;
+}
+
+
+
+/**********************************************************************************************EspaceContact***************************************************************************************/
+
+#section_contact {
+    background-color: #C0D0EF;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 500px;
+    width: 100%;
+    letter-spacing: 1px;  
+    display: none; 
+}
+
+#section_contact p {
+    color: #B80F0A;
+    text-align: center;
+    font-size: 25px;
+}
+#section_contact p span {
+    color: #304A6E;
+}
+
+#section_contact a{
+    color: #304A6E;
+}
+
+/*********************************************************************Espace CV ***************************************************/
+
+
+#section_cv {
+    display: none;
+    justify-content: center;
+}
+
+#image_CV {
+    background-color: black;
+}
+
+#image_CV img {
+    height: 800px;
+}
+
